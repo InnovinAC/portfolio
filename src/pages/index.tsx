@@ -7,7 +7,6 @@ const Index = () => {
 
     useEffect(() => {
         const change = () => {
-            console.log(loadingState);
             if (loadingTexts.length === loadingState + 1) {
                 setLoadingState(0);
             } else {
