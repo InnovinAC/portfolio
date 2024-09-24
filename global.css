@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind variants;
+
+body {
+    @apply bg-slate-900 text-slate-400 mx-auto antialiased;
+}
+#root {
+   @apply max-w-[1480px] mx-auto min-h-screen;
+}
